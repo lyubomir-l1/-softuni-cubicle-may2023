@@ -1,0 +1,26 @@
+{
+  "name": "-softuni-cubicle-may2023",
+  "version": "1.0.0",
+  "description": "Project exercise",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyubomir-l1/-softuni-cubicle-may2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyubomir-l1/-softuni-cubicle-may2023/issues"
+  },
+  "homepage": "https://github.com/lyubomir-l1/-softuni-cubicle-may2023#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
