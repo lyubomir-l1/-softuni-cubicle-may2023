@@ -26,7 +26,10 @@ const {
 });
 
 router.get('/:cubeId/details', (req, res) => {
-   const cube =  cubeManager.getOne(req.params.cubeId)
+   const cube =  cubeManager.getOne(req.params.cubeId);
+   if(!cube){
+    return res.redirect('/404')
+   }
     res.render('details', { cube })
 })
 
