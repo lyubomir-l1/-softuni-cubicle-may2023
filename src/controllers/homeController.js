@@ -9,5 +9,7 @@ const cubes = cubeManager.getAll();
 
 router.get('/about', (req, res) => {
     res.render('about')
-})
+});
+
+
 module.exports = router;
